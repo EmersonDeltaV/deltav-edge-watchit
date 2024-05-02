@@ -2,6 +2,16 @@
 
 This implementation demonstrates how to utilize the DeltaV Edge Environment REST API within a straightforward WPF (Windows Presentation Foundation) application. The purpose of this application is to interact with the DeltaV Edge system and retrieve relevant data.
 
+## Prerequisites
+
+Before using this application, please ensure that you have setup the following with your Edge installation:
+
+```
+1. A working and reachable Edge REST API endpoint
+2. Authorized Credentials for your Edge REST API endpoint
+```
+For more information, please consult the Edge Environment User Guide.
+
 ## Instructions:
 
 1. **DeltaV Edge Credential**: Insert your valid DeltaV Edge credentials.
@@ -12,10 +22,10 @@ This implementation demonstrates how to utilize the DeltaV Edge Environment REST
 Upon clicking the "Submit" button, the application will retrieve the latest value for the specified parameter, along with its historical data.
 ## Download the Application:
 
-You can download the complete WPF application as a zip file from the following link: Download DeltaV Edge WPF App  
-[Download here](https://github.com/EmersonDeltaV/deltav-edge-watchit/releases/tag/Release)
+You can download the complete WPF application as a zip file from the following link: 
+[Download DeltaV Edge WPF App](https://github.com/EmersonDeltaV/deltav-edge-watchit/releases/tag/Release)
 ## Preview   
-<img src="preview.png" width="450">
+<img src="preview.png" width="300">
 
 
 # Author
