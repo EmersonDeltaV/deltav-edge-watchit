@@ -57,16 +57,24 @@ namespace Emerson.Edge.Watchit
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            CreateHttpClient();
-            var auth =  AuthenticateAsync().Result;
-            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", auth.AccessToken);
-
-            History history = GetHistoryAsync().Result;
-            if (history != null) 
+            try
             {
-                LatestValueTextBlock.Text = $"Latest Value : {history.FieldHistory.FieldValue[0].Value}";
-                HistoryDataGrid.ItemsSource = history.FieldHistory.FieldValue;
+                CreateHttpClient();
+                var auth = AuthenticateAsync().Result;
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", auth.AccessToken);
+
+                History history = GetHistoryAsync().Result;
+                if (history != null)
+                {
+                    LatestValueTextBlock.Text = $"Latest Value : {history.FieldHistory.FieldValue[0].Value}";
+                    HistoryDataGrid.ItemsSource = history.FieldHistory.FieldValue;
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
             
         }
     }
