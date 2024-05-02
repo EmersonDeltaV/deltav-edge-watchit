@@ -13,6 +13,6 @@ Upon clicking the "Submit" button, the application will retrieve the latest valu
 ## Download the Application:
 
 You can download the complete WPF application as a zip file from the following link: Download DeltaV Edge WPF App  
-[Download here](./release/edge.watchit-v1.zip)
+[Download here](https://github.com/EmersonDeltaV/deltav-edge-watchit/releases/tag/Release)
 ## Preview   
 <img src="preview.png" width="450">
