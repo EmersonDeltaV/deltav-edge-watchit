@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emerson.Edge.Watchit", "Emerson.Edge.Watchit\Emerson.Edge.Watchit.csproj", "{2DADC152-0876-4539-87A8-544A948ABF11}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Emerson.Edge.Watchit.Python", "Emerson.Edge.Watchit.Python\Emerson.Edge.Watchit.Python.pyproj", "{9FA048F9-947B-4C1F-B622-EE5F1A0B90FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{2DADC152-0876-4539-87A8-544A948ABF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DADC152-0876-4539-87A8-544A948ABF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DADC152-0876-4539-87A8-544A948ABF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA048F9-947B-4C1F-B622-EE5F1A0B90FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA048F9-947B-4C1F-B622-EE5F1A0B90FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,7 +48,7 @@ namespace Emerson.Edge.Watchit
             };
 
             var response = await client.PostAsync(authUrl, new FormUrlEncodedContent(content), ct).ConfigureAwait(false);
-
+            if (!response.IsSuccessStatusCode) return null;
             // Parse the response body
             var result = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<TokenResponse>(result);
@@ -61,6 +61,11 @@ namespace Emerson.Edge.Watchit
             {
                 CreateHttpClient();
                 var auth = AuthenticateAsync().Result;
+                if (auth == null) 
+                { 
+                    MessageBox.Show("Invalid Credentials");
+                    return;
+                }
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", auth.AccessToken);
 
                 History history = GetHistoryAsync().Result;
