@@ -30,7 +30,7 @@ You can download the complete WPF application as a zip file from the following l
 ## Python Script:
 
 If you prefer to use a Python script instead, you can find the README.md file for the Python version of the DeltaV Edge Watchit application at the following link:
-[DeltaV Edge Watchit Python README](https://github.com/EmersonDeltaV/deltav-edge-watchit/Emerson.Edge.Watchit.Python/README.md)
+[DeltaV Edge Watchit Python README](https://github.com/EmersonDeltaV/deltav-edge-watchit/tree/main/Emerson.Edge.Watchit.Python)
 
 # Author
 - Richard Mark Bonifacio
