@@ -1,7 +1,11 @@
 # DeltaV Edge Environment REST API Implementation in a Simple WPF Application
 
 This implementation demonstrates how to utilize the DeltaV Edge Environment REST API within a straightforward WPF (Windows Presentation Foundation) application. The purpose of this application is to interact with the DeltaV Edge system and retrieve relevant data.
-
+> [!WARNING]
+>## Python Script:
+>
+>If you prefer to use a Python script instead, you can find the README.md file for the Python version of the DeltaV Edge Watchit application at the following link:
+>[DeltaV Edge Watchit Python README](https://github.com/EmersonDeltaV/deltav-edge-watchit/tree/main/Emerson.Edge.Watchit.Python)
 ## Prerequisites
 
 Before using this application, please ensure that you have setup the following with your Edge installation:
@@ -27,10 +31,6 @@ You can download the complete WPF application as a zip file from the following l
 ## Preview   
 <img src="preview.png" width="300">
 
-## Python Script:
-
-If you prefer to use a Python script instead, you can find the README.md file for the Python version of the DeltaV Edge Watchit application at the following link:
-[DeltaV Edge Watchit Python README](https://github.com/EmersonDeltaV/deltav-edge-watchit/tree/main/Emerson.Edge.Watchit.Python)
 
 # Author
 - Richard Mark Bonifacio

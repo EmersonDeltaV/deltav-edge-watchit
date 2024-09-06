@@ -8,11 +8,11 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "args": [
-                "--provider-prefix", "PROPLUS_PREFIX",
+                "--provider-prefix", "example_prefix",
                 "--path", "example_path",
-                "--edgeip", "localhost",
+                "--edgeip", "192.168.1.1",
                 "--username", "admin",
-                "--password", "iamsecret"
+                "--password", "secret"
             ]
         }
     ]
